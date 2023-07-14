@@ -1,0 +1,132 @@
+body {
+    background-color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hometitle {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacttitle {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cvtitle {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    background-color: olive;
+    text-decoration: none;
+    padding: 15px 15px 15px 120px
+}
+
+li {
+    display: inline-block;
+    background-color: brown;
+    text-align: center;
+    height: 50px;
+    width: 185px;
+    border-radius: 50%;
+
+}
+
+a {
+    color: olive;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li:hover {
+    background-color: darkred;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:active {
+    color: brown;
+}
+
+h1 {
+    color: olive;
+}
+
+#verhaal {
+    min-height: 600px;
+    width: 800px;
+    background-color: olive;
+    color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+img {
+    width: 800px;
+}
+
+footer {
+    background-color: olive;
+    color: brown;
+    height: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#table01 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 600px;
+    width: 810px;
+    background-color: olive;
+    color: brown;
+}
+
+#table02 {
+    display: block;
+    min-height: 600px;
+    background-color: olive;
+    color: brown;
+}
+
+#cel01,
+#cel08 {
+    font-weight: bold;
+}
+
+#contactform {
+    color: brown;
+    background-color: olive;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+textarea {
+    width: 350px;
+    min-height: 100px;
+}
+
+button {
+    float: right;
+    color: white;
+    background-color: brown;
+}
