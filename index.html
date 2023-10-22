@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giessenburg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <style type="text/css">
+        [class*="col-"] {
+            width: 100%;
+            background-color: green;
+            min-height: 50px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            [class*="col-"] {
+                float: left;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        #inhoud {
+            margin-top: 20px;
+        }
+
+        header {
+            width: 100%;
+            aspect-ratio: 4.5/1;
+            text-align: center;
+            background-color: white;
+            background-image: url(afbeeldingen/giessenburg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: black;
+            text-shadow: 2px 2px white;
+            font-family: 'Lugrasimo', cursive;
+            padding-top: 10px;
+        }
+
+        footer {
+            clear: left;
+            width: 98%;
+            height: 40px;
+            text-align: right;
+            background-color: gray;
+            color: white;
+            padding-top: 20px;
+            padding-right: 2%;
+        }
+
+        #left {
+            overflow: hidden;
+        }
+
+        ul {
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        #titelfeitjes {
+            font-family: 'Lugrasimo', cursive;
+            color: white;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        #titelartikelen {
+            font-family: 'Lugrasimo', cursive;
+            color: black;
+            text-align: center;
+        }
+
+        .artikel1 {
+            min-height: 200px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            color: black;
+            border-top-style: dotted;
+            border-top-width: thick;
+            border-top-color: white;
+        }
+
+        .artikel2 {
+            min-height: 200px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            color: black;
+            border-top-style: dotted;
+            border-top-width: thick;
+            border-top-color: white;
+            border-bottom-style: dotted;
+            border-bottom-width: thick;
+            border-bottom-color: white;
+        }
+
+        #graanbuurt {
+            width: auto;
+            height: 200px;
+            float: right;
+            margin-right: 20px;
+        }
+
+        #sloep {
+            width: auto;
+            height: 200px;
+            float: right;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="inhoud">
+        <header>
+            <h1>Giessenburg</h1>
+        </header>
+        <div class="row; col-12">
+            <div id="left" class="col-2">
+                <h2 id="titelfeitjes">Feitjes over Giessenburg</h2>
+                <ul>
+                    <li>Giessenburg is vernoemd naar kasteel de 'Ghiessenburght</li><br>
+                    <li>Giessenburg ligt in de gemeente Molenlanden</li><br>
+                    <li>Er wonen een kleine 5000 inwoners in Giessenburg</li><br>
+                    <li>De enige voetbalclub in Giessenburg heet v.v. Peursum</li><br>
+                    <li>De gymnastiekvereniging heet VRIDOS</li>
+                </ul>
+            </div>
+            <div id="right" class="col-9">
+                <h2 id="titelartikelen">Attracties in Giessenburg</h2>
+                <div class="artikel1">
+                    <img id="graanbuurt" src="afbeeldingen/graanbuurt.jpg" alt="Foto van de Graanbuurt">
+                    <h3>De Graanbuurt</h3>
+                    <b>Welkom in de Graanbuurt!</b><br>
+                    De historische panden, die de Graanbuurt vormen, zitten vol met unieke winkels.<br>
+                    Iedere winkel heeft zijn eigen specialiteit. Van banket, sieraden, bloemen en kleding tot cadeau
+                    artikelen, meubelen, horeca en een kapsalon.<br>
+                    Authentiek winkelen in een nieuw jasje gestoken!
+                </div>
+                <div class="artikel2">
+                    <img id="sloep" src="afbeeldingen/sloep.jpeg" alt="Foto van een sloep">
+                    <h3>Sloepverhuur Giessenburg</h3>
+                    <b>Sloep varen op de Giessen</b><br>
+                    Toe aan een heerlijke dag ontspannen?<br>
+                    De Giessen heeft een prachtig vaargebied, waar u kunt genieten en tot rust komt door de mooie
+                    omgeving en natuur.<br>
+                    Tevens bieden wij de nieuwste en meest comfortabele sloepen!
+                </div>
+            </div>
+        </div>
+        <footer>© Copyright 2023 Robert Dame
+        </footer>
+    </div>
+</body>
+
+</html>
