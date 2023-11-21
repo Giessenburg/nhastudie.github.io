@@ -1,0 +1,15 @@
+body {
+    color: white;
+    background-color: darkgreen;
+}
+
+img {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tekst {
+    font-size: large;
+    font-weight: 400;
+}

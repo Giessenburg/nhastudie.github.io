@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Draai het Logo</title>
+    <link rel="stylesheet" type="text/css" href="opmaak/opmaak.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <div>
+        <label class="tekst">Klik hier om het logo te draaien:</label> <input type="button" class="btnRotate" value="90"
+            onClick="rotateImage(this.value);" /> <input type="button" class="btnRotate" value="-90"
+            onClick="rotateImage(this.value);" /> <input type="button" class="btnRotate" value="180"
+            onClick="rotateImage(this.value);" /> <input type="button" class="btnRotate" value="360"
+            onClick="rotateImage(this.value);" />
+    </div>
+    <div>
+        <img src="afbeeldingen/shell.png" id="shell-logo" />
+    </div>
+    <footer>© Copyright 2023 Robert Dame</footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script>
+        function rotateImage(degree) {
+            $('#shell-logo').animate({ transform: degree }, {
+                step: function (now, fx) {
+                    $(this).css({
+                        '-webkit-transform': 'rotate(' + now + 'deg)',
+                        '-moz-transform': 'rotate(' + now + 'deg)',
+                        'transform': 'rotate(' + now + 'deg)'
+                    });
+                }
+            });
+        }
+    </script>
+    <noscript>Om deze website optimaal te gebruiken is het
+        noodzakelijk om JavaScript te activeren.</noscript>
+</body>
+
+</html>
